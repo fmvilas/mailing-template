@@ -1,5 +1,5 @@
 
-# Bonilista email template
+# Bonilista Email Template
 
 This project is a MailChimp-based email template built using [Eleventy](https://www.11ty.dev/) (11ty) and the Nunjucks templating language. Eleventy is used as a static site generator to compile HTML, making it easy to build and update this template.
 
@@ -50,4 +50,4 @@ Feel free to open issues or submit pull requests. We welcome contributions to im
 
 ## License
 
-TBD
+Distributed under the AGPLv3 License. See `LICENSE.md` for more information.
