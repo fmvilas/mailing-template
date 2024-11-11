@@ -1,0 +1,25 @@
+{
+  "name": "bonilista",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonilista/bonilista-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/bonilista/bonilista-template/issues"
+  },
+  "homepage": "https://github.com/bonilista/bonilista-template#readme"
+}
