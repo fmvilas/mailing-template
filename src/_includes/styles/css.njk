@@ -76,9 +76,6 @@ h6 {
   margin-top: 1.25em;
   margin-bottom: 0.75em;
   padding-top: 20px;
-  background-image: url("/assets/images/heading-dot.png");
-  background-repeat: no-repeat;
-  background-size: 30px auto;
 }
 ol,
 ul {
@@ -86,7 +83,7 @@ ul {
 }
 body {
   color: #252321;
-  background-color: #F1F3E6;
+  background-color: #ede6f3;
 }
 body,
 p {
@@ -105,14 +102,14 @@ em {
 }
 a {
   font-weight: 700;
-  color: #E44A4A;
+  color: #ec4899;
   text-decoration: none;
 }
 a:hover {
-  color: #CC1E1E !important;
+  color: #c04f88 !important;
 }
 a:active {
-  color: #CC1E1E !important;
+  color: #c04f88 !important;
 }
 ol {
   margin-bottom: 1.5em;
@@ -123,8 +120,9 @@ ul {
 li {
   margin-bottom: 0.5em;
 }
-ul li {
-  list-style-image: url("/assets/images/bullet.png");
+ul li::marker,
+ol li::marker {
+  color: #ec4899;
 }
 
 .serif {
@@ -178,7 +176,7 @@ ul li {
 }
 .sponsor__button-inner:hover {
   color: white !important;
-  background-color: #CC1E1E !important;
+  background-color: #c04f88 !important;
 }
 .sponsor__link a,
 .sponsor__link a:hover,
@@ -202,7 +200,7 @@ ul li {
   color: inherit !important;
 }
 .tweet-text strong {
-  color: #E44A4A !important;
+  color: #ec4899 !important;
 }
 
 .guest-twitter {
@@ -340,14 +338,14 @@ ul li {
   }
   a {
   font-weight: 700;
-  color: #F06D6D !important;
+  color: #ec4899 !important;
   text-decoration: none;
   }
   a:hover {
-    color: #CC1E1E !important;
+    color: #c04f88 !important;
   }
   a:active {
-    color: #CC1E1E !important;
+    color: #c04f88 !important;
   }
   .hide-dark {
     display: none !important;
@@ -381,19 +379,5 @@ ul li {
 }
 .__body .halo-alt {
   display: table !important;
-}
-/**
-* @tab Page
-* @section header-left
-*/
-.cover-left{
-    /*@editable*/ background-image:url('/assets/images/cover-left.jpg');
-}
-/**
-* @tab Page
-* @section header-right
-*/
-.cover-right{
-    /*@editable*/ background-image:url('/assets/images/cover-right.jpg');
 }
 </style>
